@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+        .container-fluid {
+            padding-top: 20px;
+        }
+        .double-height {
+            height: 420px; /* Double the original height */
+        }
+        .embed-responsive {
+            background-color: #333; /* Background color for the iframe containers */
+            border-radius: 5px; /* Optional: rounded corners */
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            /* height: 100%; */
+        }
+        .centered-image {
+            /* max-width: 100%; */
+            width: 530px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="image-container">
+                    <img src="https://assets.bitdegree.org/fear-and-greed-index/current.png" alt="Fear and Greed Index" class="centered-image">
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/on-chain-metrics/bitcoin/number-of-active-addresses-on-the-bitcoin-network-7dma/embed" title="Number of Active Addresses on the Bitcoin Network (7DMA)"></iframe>
+                    
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/on-chain-metrics/bitcoin/bitcoins-adjusted-on-chain-volume-daily/embed" title="Bitcoin's On-Chain Volume (Monthly)"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/on-chain-metrics/bitcoin/percentage-of-btc-supply-in-profit-7dma/embed" title="Percentage of BTC Supply in Profit (7DMA)"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

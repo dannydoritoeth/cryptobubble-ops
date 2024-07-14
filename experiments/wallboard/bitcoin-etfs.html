@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+        .container-fluid {
+            padding-top: 20px;
+        }
+        .double-height {
+            height: 420px; /* Double the original height */
+        }
+        .embed-responsive {
+            background-color: #333; /* Background color for the iframe containers */
+            border-radius: 5px; /* Optional: rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/crypto-markets/bitcoin-etf/bitcoin-spot-etf-volumes/embed" title="Spot Bitcoin ETF Volumes"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/crypto-markets/bitcoin-etf/spot-bitcoin-etf-flows/embed" title="Spot Bitcoin ETF Flows"></iframe>
+                    
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/crypto-markets/bitcoin-etf/spot-bitcoin-etf-onchain-holdings-usd/embed" title="Spot Bitcoin ETF AUM"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 double-height">
+                    <iframe width="100%" height="100%" frameborder="0" src="https://www.theblock.co/data/crypto-markets/bitcoin-etf/spot-vs-futures-bitcoin-etf-market-share/embed" title="Spot vs Futures Bitcoin ETF Market Share"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
