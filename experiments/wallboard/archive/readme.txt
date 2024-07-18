@@ -16,6 +16,9 @@ Stock to flow
  - 
 
 
+blockchaincenter.net/en/bitcoin-rainbow.chart/
+lookintobitcoin.com/charts/stock-to-flow-model/
+
 Future
 ======
 
